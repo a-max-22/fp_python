@@ -6,5 +6,5 @@ def add(x, y):
     return x+y
 
 def add10(x):
-	return  Maybe.apply(add).to_arguments(Just(10), x)
+    return  Maybe.apply(add).to_arguments(Just(10), x)
 	
